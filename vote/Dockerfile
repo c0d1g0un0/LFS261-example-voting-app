@@ -1,5 +1,5 @@
 # Using official python runtime base image
-FROM eeganlf/voteapp-python:v0.1.0
+FROM alpine:latest
 
 # Set the application directory
 WORKDIR /app
